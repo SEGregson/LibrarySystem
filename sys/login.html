@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>
+            Please log in!
+        </title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <form action="/url" method="GET" class="login">
+            <label for="username">Username:</label><br>
+            <input type="text" id="usn" name="usn"><br>
+    
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd">
+            <br>
+            <input type="button" value="Submit" onclick="validate()" />
+        </form>
+
+        <script type="text/javascript" src="Backend/validate.js"></script>
+    </body>
+
+</html>
